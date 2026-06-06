@@ -43,10 +43,7 @@ class MainScreen extends StatelessWidget {
           ),
           const Divider(),
           ListTile(
-            leading: const Icon(
-              Icons.business_center_outlined,
-              color: Colors.redAccent,
-            ),
+            leading: const Icon(Icons.view_column, color: Colors.red),
             title: const Text("3. Elementos UI"),
             subtitle: const Text("Text, Icon y Botones"),
             trailing: const Icon(Icons.arrow_forward),
